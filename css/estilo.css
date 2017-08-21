@@ -1,16 +1,37 @@
-body{
-    background-color: #1abc9c;
+body {
+  font-family: Consolas;
+  background-color:  #27ae60;
+  padding-left: 10px;
 }
-figure{
-  width ="120" 
-  height="200
 
+.cabecalho-e-rodape {
+  background-color: #bdc3c7;
+  color: #e74c3c;
 }
-#container2{
-  border: 2px solid;
-  background-color: #e67e22;
+
+.cabecalho-e-rodape h2 {
+  text-align: center;
 }
-footer{
-	border: 2px solid;
-	background-color: #e67e22;
+
+ul {
+  list-style-type: none;
+}
+
+.livro {
+  /* border: 1px solid red; */
+  display: inline-block;
+  position: relative;
+  height: 160px;
+  width: 220px;
+  margin-bottom: 25px;
+}
+
+.livro img {
+  position: absolute;
+  left: 30px;
+}
+
+.livro ul {
+  position: absolute;
+  left: 110px;
 }
